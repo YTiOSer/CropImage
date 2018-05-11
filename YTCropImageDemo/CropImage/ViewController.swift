@@ -63,7 +63,7 @@ extension ViewController: UIImagePickerControllerDelegate, UINavigationControlle
             self.img_Show.image = img
         }
         vc.didClickedOKButtonClosure = { [unowned self] (image: UIImage) in
-            self.img_Show.image = img
+            self.img_Show.image = image
         }
         
     }

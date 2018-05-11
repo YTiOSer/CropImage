@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9D2B4DE520A5405200055B29 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DC88A3920A53FF5005D338B /* SnapKit.framework */; };
-		9D2B4DE620A5405200055B29 /* SnapKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9DC88A3920A53FF5005D338B /* SnapKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9D2B4DF420A573CB00055B29 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D2B4DF120A573B400055B29 /* SnapKit.framework */; };
+		9D2B4DF520A573CB00055B29 /* SnapKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9D2B4DF120A573B400055B29 /* SnapKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9DC8896E20A533A9005D338B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC8896D20A533A9005D338B /* ViewController.swift */; };
 		9DC8897120A533A9005D338B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DC8896F20A533A9005D338B /* Main.storyboard */; };
 		9DC8897620A533AA005D338B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DC8897420A533AA005D338B /* LaunchScreen.storyboard */; };
@@ -23,26 +23,26 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		9D2B4DE720A5405200055B29 /* PBXContainerItemProxy */ = {
+		9D2B4DF020A573B400055B29 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 9DC88A3320A53FF5005D338B /* SnapKit.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = EEBCC9D719CC627D0083B827;
-			remoteInfo = SnapKit;
-		};
-		9DC88A3820A53FF5005D338B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9DC88A3320A53FF5005D338B /* SnapKit.xcodeproj */;
+			containerPortal = 9D2B4DEB20A573B300055B29 /* SnapKit.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = EEBCC9D819CC627D0083B827;
 			remoteInfo = SnapKit;
 		};
-		9DC88A3A20A53FF5005D338B /* PBXContainerItemProxy */ = {
+		9D2B4DF220A573B400055B29 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 9DC88A3320A53FF5005D338B /* SnapKit.xcodeproj */;
+			containerPortal = 9D2B4DEB20A573B300055B29 /* SnapKit.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = EEBCC9E219CC627E0083B827;
 			remoteInfo = "SnapKit Tests";
+		};
+		9D2B4DF620A573CB00055B29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D2B4DEB20A573B300055B29 /* SnapKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = EEBCC9D719CC627D0083B827;
+			remoteInfo = SnapKit;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -53,7 +53,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				9D2B4DE620A5405200055B29 /* SnapKit.framework in Embed Frameworks */,
+				9D2B4DF520A573CB00055B29 /* SnapKit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -61,6 +61,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9D2B4DEB20A573B300055B29 /* SnapKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SnapKit.xcodeproj; path = "../../../../../../Downloads/SnapKit-develop/SnapKit.xcodeproj"; sourceTree = "<group>"; };
 		9DC8896820A533A9005D338B /* YTCropImageDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YTCropImageDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DC8896D20A533A9005D338B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9DC8897020A533A9005D338B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -75,7 +76,6 @@
 		9DC889DD20A5399E005D338B /* YTCropImageDemo-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YTCropImageDemo-Bridging-Header.h"; sourceTree = "<group>"; };
 		9DC889DF20A5399E005D338B /* YTCropImageVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YTCropImageVC.swift; sourceTree = "<group>"; };
 		9DC889E020A5399E005D338B /* YTImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTImageView.m; sourceTree = "<group>"; };
-		9DC88A3320A53FF5005D338B /* SnapKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SnapKit.xcodeproj; path = "../../../../../Downloads/SnapKit-develop/SnapKit.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,13 +83,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D2B4DE520A5405200055B29 /* SnapKit.framework in Frameworks */,
+				9D2B4DF420A573CB00055B29 /* SnapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9D2B4DEC20A573B300055B29 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D2B4DF120A573B400055B29 /* SnapKit.framework */,
+				9D2B4DF320A573B400055B29 /* SnapKit Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		9DC8895F20A533A9005D338B = {
 			isa = PBXGroup;
 			children = (
@@ -146,18 +155,9 @@
 		9DC889EB20A53DCF005D338B /* SnapKit */ = {
 			isa = PBXGroup;
 			children = (
-				9DC88A3320A53FF5005D338B /* SnapKit.xcodeproj */,
+				9D2B4DEB20A573B300055B29 /* SnapKit.xcodeproj */,
 			);
 			path = SnapKit;
-			sourceTree = "<group>";
-		};
-		9DC88A3420A53FF5005D338B /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				9DC88A3920A53FF5005D338B /* SnapKit.framework */,
-				9DC88A3B20A53FF5005D338B /* SnapKit Tests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,7 +175,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				9D2B4DE820A5405200055B29 /* PBXTargetDependency */,
+				9D2B4DF720A573CB00055B29 /* PBXTargetDependency */,
 			);
 			name = YTCropImageDemo;
 			productName = YTCropImageDemo;
@@ -212,8 +212,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 9DC88A3420A53FF5005D338B /* Products */;
-					ProjectRef = 9DC88A3320A53FF5005D338B /* SnapKit.xcodeproj */;
+					ProductGroup = 9D2B4DEC20A573B300055B29 /* Products */;
+					ProjectRef = 9D2B4DEB20A573B300055B29 /* SnapKit.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -224,18 +224,18 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		9DC88A3920A53FF5005D338B /* SnapKit.framework */ = {
+		9D2B4DF120A573B400055B29 /* SnapKit.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = SnapKit.framework;
-			remoteRef = 9DC88A3820A53FF5005D338B /* PBXContainerItemProxy */;
+			remoteRef = 9D2B4DF020A573B400055B29 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		9DC88A3B20A53FF5005D338B /* SnapKit Tests.xctest */ = {
+		9D2B4DF320A573B400055B29 /* SnapKit Tests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = "SnapKit Tests.xctest";
-			remoteRef = 9DC88A3A20A53FF5005D338B /* PBXContainerItemProxy */;
+			remoteRef = 9D2B4DF220A573B400055B29 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -272,10 +272,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		9D2B4DE820A5405200055B29 /* PBXTargetDependency */ = {
+		9D2B4DF720A573CB00055B29 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SnapKit;
-			targetProxy = 9D2B4DE720A5405200055B29 /* PBXContainerItemProxy */;
+			targetProxy = 9D2B4DF620A573CB00055B29 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
